@@ -1,0 +1,15 @@
+{
+    "name": "astros.aegloszenit",
+    "description": "description of Astros",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Astros",
+    "hooks": {
+        "Astros": {
+            "apparmor": "Astros/Astros.apparmor",
+            "desktop": "Astros/Astros.desktop"
+        }
+    },
+    "version": "0.2",
+    "maintainer": "Alejandro Martinez <yeahsg@gmail.com>",
+    "framework": "ubuntu-sdk-15.04"
+}
